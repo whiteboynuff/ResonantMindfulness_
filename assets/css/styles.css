@@ -105,6 +105,12 @@ a{color:inherit}
   color:var(--bone-dim);text-decoration:none;font-weight:500;
 }
 .head-links a:hover{color:var(--bone)}
+@media(max-width:51.99rem){
+  .head-in{min-height:54px;gap:.6rem;flex-wrap:nowrap}
+  .mark{font-size:.95rem}
+  .head-nav{gap:1rem}
+  .site-head .btn-sm{min-height:36px;padding:.45rem .85rem;font-size:.78rem}
+}
 
 /* ---------- buttons ---------- */
 .btn{
